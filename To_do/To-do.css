@@ -9,13 +9,14 @@
 
 body{
     background-color: rgba(248, 232, 250, 0.81);
+    
 }
 
-
 .box{
-    width: 350px;
+    width: 400px;
     margin: 10rem auto;
-
+    
+    
 }
 
 
@@ -24,11 +25,11 @@ body{
     justify-content: space-between;
     flex-direction: row;
     background-color: rgb(183, 109, 252);
-    height: 50px;
+    height: 53px;
     margin-bottom: 40px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
-
+    border-radius: 10px;
 }
 
 .font p{
@@ -43,20 +44,52 @@ body{
 }
 
 .list{
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    height: 250px;
+    height: auto;
+    border-radius: 10px;
 
 }
 
 .list p{
    
     padding: 5px;
-    margin: 10px  25%;
+    margin: 10px  15%;
     color: rgb(135, 134, 133);
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
 
     
 
+}
+
+ #mark{
+    width: 40px;
+    border-color: white;
+    /* box-shadow: hsla(210, 6%, 93%, 0.979) 0px 8px 24px; */
+    border-radius: 10px;
+}
+
+
+#add{
+   margin-left: 10rem;
+  width: 90px;
+  height: 39px;
+ background-color: rgb(183, 109, 252);
+ color: white;
+ font-size: 18px;
+ margin-top: 20px;
+ border-radius: 10px;
+ box-shadow: rgb(215, 220, 225) 0px 8px 24px;
+ border-color: white;
+ 
+}
+
+
+#finsh{
+    font-size: 35px;
+    color: rgb(183, 109, 252);
 }
