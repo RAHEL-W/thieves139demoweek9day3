@@ -74,22 +74,43 @@ body{
 }
 
 
-#add{
-   margin-left: 10rem;
-  width: 90px;
-  height: 39px;
- background-color: rgb(183, 109, 252);
- color: white;
- font-size: 18px;
- margin-top: 20px;
- border-radius: 10px;
- box-shadow: rgb(215, 220, 225) 0px 8px 24px;
- border-color: white;
- 
-}
+
 
 
 #finsh{
     font-size: 35px;
     color: rgb(183, 109, 252);
 }
+
+.adding{
+    margin: 0 45px;
+    /* width: 400px; */
+    
+}
+
+#input{
+    width: 150px;
+    height: 25px;
+    background-color: white;;
+
+  font-size: 18px;
+  border:6px solid rgb(195, 147, 241);
+  border-radius: 3px;
+  box-shadow: rgb(215, 220, 225) 0px 8px 24px;
+  border-color: white;
+  
+ 
+}
+
+#add{
+    margin-left: 50px;
+   width: 90px;
+   height: 37px;
+  background-color: rgb(183, 109, 252);
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: rgb(215, 220, 225) 0px 8px 24px;
+  border-color: white;
+  
+ }
